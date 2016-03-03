@@ -1,0 +1,25 @@
+
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+  {{ super() }}
+  <style type="text/css">
+    .badge {
+	color: #fff;
+	background-color: #1e90ff;	
+	
+	}
+  </style>
+{% endblock %}
+
+
+{% block title %}Message Board{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+  <h1>Content</h1>
+</div>
+
+
+
